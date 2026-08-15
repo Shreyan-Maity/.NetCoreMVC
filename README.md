@@ -136,8 +136,6 @@ Here’s the visual diagram — it shows the **MVC flow from request to response
 
 `https://copilot.microsoft.com/th/id/BCO.85870b65-b66d-42b5-ad8c-18569ebdb231.png`
 
-
-
 # 🧩 How to Read This Diagram
 - **User Request** → Browser sends request (`/Home/Index`).  
 - **Controller** → Handles request (`HomeController.cs`). Decides what to do.  
@@ -146,13 +144,70 @@ Here’s the visual diagram — it shows the **MVC flow from request to response
 - **Response** → Browser shows the final page.  
 - **wwwroot** → Supplies CSS, JS, images to style the View.  
 
-
-
 This flow is the backbone of MVC:
 - **Controller = traffic cop** 🚦 (routes requests).  
 - **Model = data brain** 🧠 (logic + database).  
 - **View = designer** 🎨 (UI rendering).  
-- **wwwroot = toolbox** 🧰 (static assets).  
+- **wwwroot = toolbox** 🧰 (static assets).
+
+Here’s a **structured list of topics to cover in ASP.NET Core MVC** so you can learn step by step without missing anything.  
+
+---
+
+# 📚 ASP.NET Core MVC Learning Roadmap
+
+## 🔹 Basics
+- Introduction to MVC (Model–View–Controller pattern)  
+- Program.cs (entry point & middleware pipeline)  
+- Models (data & business logic)  
+- Views (presentation layer with Razor)  
+- Controllers (request handling & action methods)  
+- Routing (convention-based vs attribute routing)  
+
+
+## 🔹 Middleware & Services
+- Middleware pipeline (built-in & custom middleware)  
+- Error handling middleware (global exception handling)  
+- Dependency Injection (DI) basics  
+- Service lifetimes (Singleton, Scoped, Transient)  
+- Using services in controllers  
+
+
+## 🔹 Advanced MVC Features
+- ViewBag, ViewData, TempData  
+- Strongly typed views with Models  
+- Layouts & Partial Views  
+- Tag Helpers & HTML Helpers  
+- Model Binding & Validation  
+- Filters (Action, Authorization, Exception filters)  
+
+
+## 🔹 Data & Persistence
+- Entity Framework Core basics  
+- Database context & migrations  
+- CRUD operations (Create, Read, Update, Delete)  
+- Repository pattern & Unit of Work  
+
+
+## 🔹 Security & Identity
+- Authentication & Authorization  
+- ASP.NET Core Identity (user management)  
+- Role-based access control  
+- Securing routes & controllers  
+
+
+## 🔹 APIs & Beyond
+- API Controllers vs MVC Controllers  
+- Returning JSON responses  
+- Consuming APIs in MVC  
+- Versioning & Swagger documentation  
+
+
+## 🔹 Extras (Polish & Deployment)
+- Logging & configuration  
+- Error pages & exception handling  
+- Static files & bundling/minification  
+- Publishing & deployment (IIS, Azure, Docker) 
 
 
 Excellent! Let’s walk through a **real-world example** — a simple **Login Page flow** in an ASP.NET Core MVC project — so you can see how each folder and component interacts step by step.  
