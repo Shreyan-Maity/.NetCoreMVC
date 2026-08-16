@@ -60,3 +60,8 @@ Here’s the visual breakdown of the **Middleware Pipeline in ASP.NET Core MVC**
 
 ✅ **In short:**  
 Middleware is the **pipeline** that shapes every request and response in your MVC app. It’s defined in `Program.cs` and runs in the exact order you configure.
+
+---
+### 🛠️ [Create Custom Middleware Class](https://github.com/Shreyan-Maity/.NetCoreMVC/blob/master/Custom_Middleware.md)
+
+### 🛠️ [Custom Error-handling Middleware Class](https://github.com/Shreyan-Maity/.NetCoreMVC/blob/master/Custom_Error_Handeling_Middleware.md)
